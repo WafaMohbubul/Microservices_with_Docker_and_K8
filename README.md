@@ -10,7 +10,7 @@
 4. check its working --> type *localhost* in web browser. 
 Should Display *Welcome to Nginx*
 
-5. In GitBash, run `docker ps`
+5. In GitBash, run ```docker ps```
 
 6. `docker exec -it <ID of nginx Image> sh` 
 NOTE: should be ID of nginx 
@@ -20,15 +20,19 @@ NOTE: should be ID of nginx
 8. Run `docker exec -it <ID of nginx Image> sh` again
 NOTE: should be ID of nginx 
 
-9. `apt update -y`
-10. `apt upgrade -y`
-11. `apt install sudo`
-12. `apt install nano`
+```
+apt update -y
+apt upgrade -y
+apt install sudo
+apt install nano
+```
 
-13. `cd /usr`
-14. `cd share`
-15. `cd nginx`
-16. `cd html`
+```
+cd /usr
+cd share
+cd nginx
+cd html
+```
 
 17. `pwd`
 
