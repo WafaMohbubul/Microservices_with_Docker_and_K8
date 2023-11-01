@@ -35,7 +35,7 @@ Go onto your web browser and type in `localhost:3000`
 
 ### Step 5: Create Tag 
 
-`docker tag sparta-app shaluomehra/sparta-app`
+`docker tag sparta-app wafamohbubul/sparta-app`
 
 ### Step 6: Push To Dockerhub
 
